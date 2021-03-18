@@ -1,6 +1,6 @@
 {
   "name": "nodemailer-sendgrid-transport",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "SendGrid transport for Nodemailer",
   "main": "src/sendgrid-transport.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sendgrid/nodemailer-sendgrid-transport.git"
+    "url": "git://github.com/Cambalab/nodemailer-sendgrid-transport.git"
   },
   "keywords": [
     "Nodemailer",
@@ -21,7 +21,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "sendgrid": "^1.8.0"
+    "sendgrid": "git+https://github.com/Cambalab/sendgrid-nodejs.git#v1.8.1"
   },
   "devDependencies": {
     "chai": "^1.9.1",
